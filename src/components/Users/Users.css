@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 20px auto;
+    animation: fadeIn .3s ease;
+}
+
+.wrapper h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #323232;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.wrapper-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.wrapper-top a {
+    font-size: 22px;
+    font-weight: 400;
+    color: dodgerblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 35px;
+    transition: all .3s ease;
+    padding: 10px 20px;
+    border: 1.5px solid dodgerblue;
+    border-radius: 15px;
+}
+
+.wrapper-top a:hover {
+    color: rgb(23, 102, 180);
+    border: 1.5px solid rgb(23, 102, 180);
+}
+
+.wrapper-top a svg {
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.wrapper-top-left {
+    margin-left: 10px;
+}

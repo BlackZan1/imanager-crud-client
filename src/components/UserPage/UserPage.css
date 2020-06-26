@@ -1,0 +1,25 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto;
+    animation: fadeIn .3s ease;
+}
+
+.user-page h3 {
+    font-weight: 500;
+    color: #323232;
+    margin-bottom: 2rem;
+}
+
+.user-page h3 span {
+    color: dodgerblue;
+}
+
+.user-page-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5rem;
+}

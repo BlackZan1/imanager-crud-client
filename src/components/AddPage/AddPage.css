@@ -1,0 +1,19 @@
+.add-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto;
+    animation: fadeIn .3s ease;
+}
+
+.add-page h2 {
+    font-weight: 400;
+}
+
+.add-page h2 svg {
+    margin-bottom: -7px;
+    margin-left: 10px;
+    font-size: 34px;
+    color: dodgerblue;
+}
